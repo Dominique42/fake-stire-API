@@ -1,8 +1,8 @@
 fetch('https://fakestoreapi.com/products')
-  .then(response => response.json())
-  .then(data => {
-                data.forEach(element => {
-                    document.getElementById("cardContainer").innerHTML += `
+    .then(response => response.json())
+    .then(data => {
+        data.forEach(element => {
+            document.getElementById("cardContainer").innerHTML += `
                      <div class="carte">
         <div class="article spaceBetween">
             <p class="color">${element.title}</p>
@@ -23,12 +23,17 @@ fetch('https://fakestoreapi.com/products')
         </div>
         <div class="click-event">
             <button id="btn-1">Valider</button>
+
+
+
         </div>
     </div>
                     `
-                });
+        });
+            document.querySelector("p").style.color="green"
+            
+    })
 
-                
 
 
-})
+

@@ -46,3 +46,10 @@ border-radius: 10px;
     color: black;
     
 }
+ p{
+    color: black;
+ }
+
+ p.chargé{
+    color: green;
+ }
