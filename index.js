@@ -30,9 +30,11 @@ fetch('https://fakestoreapi.com/products')
     </div>
                     `
         });
-            document.querySelector("p").style.color="green"
-            
+           
     })
+
+            
+    
 
 
 
